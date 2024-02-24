@@ -73,7 +73,7 @@ namespace WebApiPracticas.Controllers
             return Ok(equipo);
         }
 
-        [HttpGet]
+        [HttpPost]
         [Route("Add")]
 
         public IActionResult GuadarEquipo([FromBody] equipos equipo)
